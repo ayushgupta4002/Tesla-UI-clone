@@ -10,7 +10,7 @@ function Header() {
 
     <Container>
       <a>
-        <img src="/images/logo.svg" alt="" />
+        <img src="images/logo.svg" alt="" />
       </a>
       <Menu>
       <p><a href="#" >Model S</a></p>
