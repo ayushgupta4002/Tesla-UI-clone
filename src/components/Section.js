@@ -22,7 +22,7 @@ function Section(props) {
             {props.rightbuttontxt}
             </Rightbutton>
         </Buttongroup>
-        <Downarrow src="https://ayushgupta4002.github.io/images/down-arrow.svg"/>
+        <Downarrow src="/images/down-arrow.svg"/>
         </Buttonsfinal>
         </Fade>
       
@@ -38,7 +38,7 @@ const Wrap= styled.div`
      background-size:cover;
      background-position:center;
      background-repeat: no-repeat;
-     background-image:${props => `url("https://ayushgupta4002.github.io/images/${props.bgImage}")`};
+     background-image:${props => `url("/images/${props.bgImage}")`};
      display:flex;
      flex-direction:column;
      justify-content:space-between;
